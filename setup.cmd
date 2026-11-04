@@ -7,7 +7,7 @@ if errorlevel 1 (
   pause
   exit /b 1
 )
-set "WORK_DIR=%~dp0longshen-website-local"
+set "WORK_DIR=%~dp0..\longshen-website-local"
 if exist "%WORK_DIR%" (
   echo The working folder already exists: %WORK_DIR%
   echo Open it and use publish.cmd for future updates.
